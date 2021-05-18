@@ -1,3 +1,6 @@
+// This is a program to find the largest element in an array
+// Time complexity: O(n), Space Complexity: O(1)
+
 import java.util.Scanner;
 class largestEle{
     public static void main(String[] args){

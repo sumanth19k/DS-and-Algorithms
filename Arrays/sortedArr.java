@@ -1,6 +1,6 @@
-import java.util.*;
-import java.io.*;
-import java.lang.*;
+//To check if the array is sorted or not, returns a boolean value
+//Time complexity: O(n), Space complexity: O(1)
+
 class sortedArr 
 { 
     static boolean isSorted(int arr[], int n)

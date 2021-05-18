@@ -1,6 +1,7 @@
+//This is a program to find the second largest element in an array.
+//Time complexity: O(n), Space Complexity: O(1)
+
 import java.util.Scanner;
-
-
 public class secondEle {
     static int secondLargest(int arr[], int n){
         int i,res=-1, longest=0;
@@ -26,5 +27,6 @@ public class secondEle {
         }
         
         System.out.println(secondLargest(arr, n)); 
+        sc.close();
     }
 }
