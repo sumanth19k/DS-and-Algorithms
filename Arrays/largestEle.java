@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Scanner;
 class largestEle{
     public static void main(String[] args){
@@ -15,6 +14,6 @@ class largestEle{
         }
         System.out.println(arr[res]);
 
-     sc.close();   
+        sc.close();
     }
 }
