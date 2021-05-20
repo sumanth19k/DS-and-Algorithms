@@ -1,5 +1,4 @@
-// Simple implementation of linked list, without using collections
-// You can run it in https://www.jdoodle.com/online-java-compiler if this code doesnt work in your VsCode
+// Program to recursive traverse the linked list
 class Node{
     int x;
     Node next;
@@ -8,12 +7,11 @@ class Node{
         next=null;
     }
 }
-public class LinkedList {
+public class RecursiveTraversal {
     static void display(Node head){
-        while(head!=null){
-            System.out.print(head.x+" ");
-            head=head.next;
-        }
+        if(head==null) return;
+        System.out.print(head.x+" ");
+        display(head.next);
     }
     public static void main(String[] args) {
         Node head=new Node(10);
