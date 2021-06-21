@@ -1,3 +1,8 @@
+// Welcome to dynamic programming
+// The following code returns a binary output true/false
+// The program is to check whether there exists a subset where the sum satisfies the given target sum.
+// Time complexity: O(n*sum), Space Complexity: O(n*sum),Type: 0/1 Knapsack 
+
 package DP;
 public class SubsetSum {
     static boolean isSubset(int arr[], int sum){
